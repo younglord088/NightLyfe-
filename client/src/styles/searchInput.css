@@ -1,0 +1,23 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.search-bar input[type="search"] {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 4px 8px;
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 4px;
+}

@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Fira+Sans&family=Poppins:wght@200;400;500;600&family=Roboto:ital,wght@0,400;0,900;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #f9f9f9;
+  padding: 0px 0px; /* Decreased height */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #2874f0; /* Blue color */
+  padding: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logo {
+  height: 36px; /* Decreased height */
+  width: 60px;
+  margin-left: 14px;
+}
+
+.search-bar {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.search-bar input[type="text"] {
+  padding: 6px;
+  border: none;
+  outline: none;
+  background-color: white; /* White color */
+  border-radius: 0px;
+  width: 600px;
+  margin-left: 80px;
+}
+
+.search-bar input[type="text"]::placeholder {
+  color: #999;
+}
+
+.search-bar button[type="submit"] {
+  padding: 5.2px 9px;
+  background-color: #fff; /* White color */
+  color: #2874f0; /* Blue color */
+  border: none;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  margin: 5px;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 55px;
+  font-size: large;
+  font-weight: 700;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff; /* White color */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f9a825; /* Yellow color */
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.icons {
+  margin-right: 9px;
+  font-size: 25px;
+  margin-bottom: 0.8px;
+}
+
+.icon {
+  margin-right: 6px;
+}
+
+.button-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 30px;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: #f9a825; /* Yellow color */
+  color: #fff; /* White color */
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+  background-color: #f57f17; /* Dark yellow color */
+}
+
+.button-link span {
+  margin-right: 5px;
+}

@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #333;
+  border-radius: 100%;
+  display: inline-block;
+  animation: bounce 1.4s ease-in-out infinite both;
+}
+
+.spinner .bounce1 {
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  animation-delay: -0.16s;
+}
+
+@keyframes bounce {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+.spinner-inner {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.spinner-inner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #333;
+  border-radius: 100%;
+  display: inline-block;
+  animation: bounce 1.4s ease-in-out infinite both;
+}
+
+.spinner-inner .bounce1 {
+  animation-delay: -0.32s;
+}
+
+.spinner-inner .bounce2 {
+  animation-delay: -0.16s;
+}
+
+@keyframes bounce {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+.spinner-line {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.spinner-line > div {
+  width: 18px;
+  height: 18px;
+  background-color: #333;
+  border-radius: 100%;
+  display: inline-block;
+  animation: bounce 1.4s ease-in-out infinite both;
+}
+
+.spinner-line .bounce1 {
+  animation-delay: -0.32s;
+}
+
+.spinner-line .bounce2 {
+  animation-delay: -0.16s;
+}
+
+@keyframes bounce {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+.spinner-circle {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.spinner-circle > div {
+  width: 18px;
+  height: 18px;
+  background-color: #333;
+  border-radius: 100%;
+  display: inline-block;
+  animation: bounce 1.4s ease-in-out infinite both;
+}
+
+.spinner-circle .bounce1 {
+  animation-delay: -0.32s;
+}
+
+.spinner-circle .bounce2 {
+  animation-delay: -0.16s;
+}
+
+@keyframes bounce {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
