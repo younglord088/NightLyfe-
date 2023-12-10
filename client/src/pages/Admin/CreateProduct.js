@@ -164,15 +164,15 @@ const CreateProduct = () => {
             </div>
 
             <div className="mb-3">
-              <label className="form-label">Physical Pass on Site</label>
+              <label className="form-label">Cuisine</label>
               <Select
                 bordered={false}
                 className="form-select"
-                placeholder="Select shipping"
+                placeholder="Select Type"
                 onChange={(value) => setShipping(value)}
               >
-                <Option value="1">Yes</Option>
-                <Option value="0">No</Option>
+                <Option value="1">Veg</Option>
+                <Option value="0">Nonveg</Option>
               </Select>
             </div>
 

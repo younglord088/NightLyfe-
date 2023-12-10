@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const restaurantSchema = new mongoose.Schema(
+const productSchema = new mongoose.Schema(
   {
     name: { type: String, required: true },
     slug: { type: String, required: true },
@@ -16,10 +16,12 @@ const restaurantSchema = new mongoose.Schema(
       data: Buffer,
       contentType: String,
     },
-    
+    shipping: { type: Boolean },
   },
   { timestamps: true }
 );
+
+
 
 const Product = mongoose.model("Product", productSchema);
 
