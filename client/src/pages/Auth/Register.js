@@ -82,7 +82,7 @@ const Register = () => {
           </div>
 
           <div className="form-group">
-            <label htmlFor="phone">Phone</label>
+            <label htmlFor="phone">Phone No.</label>
             <input
               type="text"
               id="phone"
