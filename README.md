@@ -18,10 +18,10 @@ The "Nightlyfe" project aims to create a comprehensive and user-friendly solutio
 
 ## Technology Stack
 
-- Front-end development: HTML, CSS, JavaScript
-- Back-end functionality: Server-side scripting (e.g., PHP, Python, Node.js)
-- Database management: MySQL, MongoDB
-- Web hosting: [Insert Web Hosting Service]
+- Front-end development: HTML, CSS, JavaScript, React
+- Back-end functionality: Node.js, Express
+- Database management: MongoDB
+
 
 ## Key Features
 
