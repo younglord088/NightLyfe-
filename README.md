@@ -33,4 +33,31 @@ The "Nightlyfe" project aims to create a comprehensive and user-friendly solutio
 - **Database Integration**: Store and manage data efficiently using a database.
 - **Error Handling and Security Measures**: Implement measures to ensure data security and handle errors gracefully.
 
+## How to Contribute
+I welcome contributions from the community. To contribute:
+
+1. Fork the repository.
+2. Create a new branch:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+3. Commit your changes:
+    ```bash
+    git commit -m 'Add some feature'
+    ```
+4. Push to the branch:
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+5. Open a pull request.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any questions or suggestions, feel free to contact me:
+
+- **Name**: Yash Panjwani
+- **Email**: [yashmpanjwani@gmail.com](mailto:yashmpanjwani@gmail.com)
+- **GitHub**: [younglord088](https://github.com/younglord088)
 
